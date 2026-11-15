@@ -6,7 +6,7 @@
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20On--Device-success.svg)](#privacy--security)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**ProDocScan** is a modern, privacy-first Android document scanner and OCR engine. Inspired by the familiar workflows of Adobe Scan and styled with Apple's clean Human Interface Design (HCI) guidelines, ProDocScan is built from the ground up for **Finance, Tax, Audit, and Legal Professionals** who demand high speed, accuracy, and absolute client confidentiality.
+**ProDocScan** is a modern, privacy-first Android document scanner and OCR engine. Inspired by the familiar workflows of Adobe Scan and styled with Apple's clean Human Interface Design (HCI) guidelines, ProDocScan is built from the ground up for **Finance & Accounting, Tax, Audit, and Legal Professionals** who demand high speed, accuracy, and absolute client confidentiality.
 
 ---
 
