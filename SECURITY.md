@@ -8,7 +8,7 @@ ProDocScan is built on a **100% On-Device Privacy Architecture**.
 ## Reporting a Security Vulnerability
 If you discover a security vulnerability or data leak risk within ProDocScan, please report it responsibly rather than opening a public issue.
 
-Please email vulnerability details directly to: **techh@example.com** or contact **ProWoFlow Automation Tools**.
+Please email vulnerability details directly to: **prowoflowautomationtools@gmail.com**.
 
 We will investigate and respond to all security concerns within 48 hours.
 
