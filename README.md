@@ -10,7 +10,7 @@
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org)
 [![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-blueviolet.svg)](https://developer.android.com/jetpack/compose)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20On--Device-success.svg)](#privacy--security)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 **ProDocScan** is a modern, privacy-first Android document scanner and OCR engine. Inspired by the familiar workflows of Adobe Scan and styled with Apple's clean Human Interface Design (HCI) guidelines, ProDocScan is built from the ground up for **Finance & Accounting, Tax, Audit, and Legal Professionals** who demand high speed, accuracy, and absolute client confidentiality.
 
@@ -70,7 +70,7 @@ ProDocScan is optimized for **AI-Assisted Vibe Coding**. If you are a non-techni
 
 ## 📄 License
 
-This project is open-source software licensed under the [MIT License](LICENSE).
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
