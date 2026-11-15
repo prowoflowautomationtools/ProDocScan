@@ -1,0 +1,185 @@
+Adobe Scan allows you to edit the text in the selected language.
+Modify your scan
+When you scan one or more pages, the app displays an edit toolbar under the captured
+images. You can use the edit toolbar to quickly modify and save your scans.
+To modify your existing scans, tap  > Modify scan for the file that you want to modify. It
+opens the scan in Modify mode, which displays the following options.
+These options allow you to:
+Skip to a specific page
+Retake the scan
+Crop pages
+Rotate pages
+Apply filter
+Adjust brightness & contrast
+Cleanup the image
+Add markups
+Resize pages
+Reorder pages
+Delete pages
+Add pages
+Save as PDF
+Multipage modification
+Quickly rotate or delete multiple pages simultaneously using Adobe Scan. You can also
+change filters and adjust brightness and contrast of multiple pages.To modify multiple
+pages:
+1. Open the app and tap .
+2. After you capture or import multiple pages, select the multipage icon  located above
+the page thumbnails at the bottom, or Long press any page thumbnail.
+3. Select the pages you want to modify, then select Done in the lower right corner.
+
+4. Choose from the following options:
+Rotate : To rotate the selected pages.
+Filters : To add or change filters.
+Adjust : To adjust brightness or contrast.
+Delete : To remove the selected pages. Confirm the deletion when prompted.
+
+5. To exit multipage modification mode, select the multipage icon again.
+6. Save your changes by selecting Save PDF in the lower right corner.
+Skip to a specific page
+To modify multiple pages, you can easily skip to any page using the ‘Go to page’ feature, as
+follows:
+1. From under the scanned image of the current page, tap the page number banner. A
+thumbnail section pops up showing all the pages in the current scan. Tap on any page’s
+thumbnail to open the page.
+
+Note: The thumbnail section pops up automatically if your scan has three or more pages.
+2. Alternatively, you can tap the left and right navigation arrows to navigate the pages.
+
+Retake the scan
+If you are not satisfied with your current capture or with any of you previous captures in
+the ongoing scan, you can skip to the desired page using the page navigation arrows or
+using the thumbnails as explained in Skip to a specific page. Tap  in the lower left to
+open the capture mode. Then focus the screen on your document and capture again.
+Crop pages
+To crop or adjust the borders of your scanned pages:
+1. Navigate to the page you want to modify.
+2. Tap 
+3. Drag the crop handles to resize the scan area or tap Auto-Detect  to let the app
+automatically position the crop borders.
+4. Optionally, tap  to rotate your scans 90 degrees in clockwise direction.
+5. Once done, select Save PDF.
+If the Straighten option is turned on, the app preserves the context of the curvature-
+corrected image, so you do not need to straighten it again during re-crop.
+Rotate pages
+To rotate your scanned pages:
+1. Navigate to the page you want to rotate.
+2. Tap 
+3. Repeat as needed for other pages.
+Apply filter
+You can apply filters to adjust the color of your scanned pages. To do so:
+1. Navigate to the page that you want to modify.
+2. Tap  Filters.
+3. Choose one of the following filter options:
+Original color to keep the colors as is.
+Auto-color to let the scan app make the adjustments.
+Light text to highlight light text or drawings.
+Grayscale to remove color.
+Whiteboard to increase the contrast.
+4. To apply the setting across multiple pages, enable Apply to all pages.
+
+Adjust brightness & contrast
+To adjust the brightness and contrast of your scans:
+1. Navigate to the page that you want to modify.
+2. From the bottom menu, tap  Adjust.
+3. To adjust the brightness, tap or drag the Brighness level bar to a desired value.
+4. To change the image contrast, tap  Contrast and then drag the Contrast level bar to a
+desired value.
+
+5. If your scan has multiple pages, you can apply the change to all the pages by tapping
+Apply to all pages toggle to enable it.
+6. Once done, tap Save PDF.
+Cleanup the image
+You can erase unwanted artifacts, fuzzy images, or any other content. The “erase” action is
+essentially filling a selected area with a color you select (thus hiding that area). You can
+perform image cleanup on a new scan or an existing scan.
+To clean up:
+1. Navigate to the page you want to clean up.
+2. Tap  Cleanup.
+3. Select one of the following fill colors:
+Fill with surrounding color: Use an app-selected background image as a brush
+color.
+Fill with selected color: There are two ways to choose a color to fill the screen
+with:
+Tap the square: Choose a color from the color picker popup.
+Tap the eyedropper: When the moveable eyedropper appears, move it over
+the image to detect the color of that section, and tap 
+4. Zoom the image in and out with two fingers as needed.
+5. Swipe your finger over the area that you want to erase.
+6. Tap 
+
+Add markups
+You can use Scan app’s Markup tool to add shapes and freehand drawings to your scanned
+pages. To do so:
+1. Navigate to the page that you want to markup.
+2. Tap  Shapes.
+3. To add a freehand drawing:
+
+a. Make sure Drawing tool is selected from the bottom bar.
+b. Select a color for your drawings or markings using one of the following ways:
+Fill with surrounding color: Select this to choose the surrounding color as fill
+color.
+Fill with selected color: Select this to choose a color of your choice using one of
+these methods:
+Tap the square: Tap and drag the picker to highlight a color on the right. Drag
+the Change the opacity if desired.
+Tap the eyedropper: When the moveable eyedropper appears, move it over
+the image to detect the color of that section, and tap 
+c. Tap or drag the Stroke width bar to change the width as desired.
+d. Use your finger to draw on the page. You may zoom your scan page for better
+precision.
+4. To add a shape:
+
+a. Tap Shapes from the bottom bar.
+b. Tap See all to view all the shapes and then tap on a desired shape. The selected
+shape appears on the document.
+c. Take any of the following actions as required:
+
+To resize the added shape, tap the Resize handle and drag it inward, upward, or
+sideways to get a desired size.
+To rotate the shape, long-press the Rotate handle and move it as desired.
+To move the shape to a diﬀerent location, long-press the centre of the shape and
+move it to a desired location.
+To delete the shape, tap X.
+To change the stroke color, tap the Stroke color square and then tap on the
+desired color.
+To fill the shape with color, tap Fill color square and then tap on the desired color.
+5. To redo or undo your actions, tap the respective icons from the top bar.
+6. Tap  to save your drawings and shapes.
+7. To discard your changes on the page, tap X from the top toolbar. In the dialog that
+appears, tap OK.
+Note: You can go back anytime to the Markup tool mode to delete or modify your saved
+drawings and shapes using the undo and redo buttons.
+Resize pages
+You can easily adjust the page size in Review screen. For example, you can select A4
+Portrait or another size that suits your printing needs.
+To resize pages:
+1. Tap  Resize.
+2. Navigate to the page that you want to resize.
+3. Resize the page. Repeat this step for any page.
+4. Tap 
+
+Reorder pages
+While in Review mode, you can reorder 1 or more pages:
+1. Tap  Reorder.
+2. Drag and drop pages to new locations.
+3. Tap 
+Delete pages
+While in Review mode, you can delete any number of pages.
+1. Navigate to the page that you want to delete.
+2. Tap  Delete.
+3. In the dialog that appears, tap Delete to confirm.
+Add pages
+You can include more pages to your existing file by quickly taking more scans or including
+images/documents from your device. To do so:
+1. Tap Keep scanning.
+2. To scan a new page, focus the screen on the page and capture it.
+
+3. To add images or documents from your device, tap  and then select the photos or
+documents that you want to add.
+ Note
+If prompted, you must allow access to your device storage to be able to add images
+and documents from your device.
+Save as PDF
+Once you’re satisfied with the scan, tap Save PDF to automatically convert your scan to a
+PDF and upload to Adobe cloud storage.
+Last update: 10:41 May 25, 2026.
