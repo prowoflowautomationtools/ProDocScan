@@ -16,6 +16,14 @@
 
 ---
 
+## 📱 App Screenshots
+
+| Main Gallery (Scans) | Searchable PDF & Highlighting | Text Extraction (OCR) |
+| :---: | :---: | :---: |
+| *Modern Apple HCI design with 24dp rounded squircle cards, Large Titles, and thumb-accessible FAB.* | *In-App search with live yellow highlights & spatial auto-panning arrows.* | *100% offline Devanagari & English text extraction sheet.* |
+
+---
+
 ## ✨ Key Features
 
 - **🤖 AI-Powered Scanning:** Google ML Kit backend with automatic boundary detection, perspective cropping, and ML-enabled stain/finger erasing (`SCANNER_MODE_FULL`).
