@@ -183,3 +183,5 @@ Save as PDF
 Once you’re satisfied with the scan, tap Save PDF to automatically convert your scan to a
 PDF and upload to Adobe cloud storage.
 Last update: 10:41 May 25, 2026.
+
+# release update

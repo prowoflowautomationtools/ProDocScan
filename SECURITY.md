@@ -11,3 +11,5 @@ If you discover a security vulnerability or data leak risk within ProDocScan, pl
 Please email vulnerability details directly to: **techh@example.com** or contact **ProWoFlow Automation Tools**.
 
 We will investigate and respond to all security concerns within 48 hours.
+
+<!-- release update -->

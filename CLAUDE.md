@@ -32,3 +32,5 @@ ProDocScan is built using pure **Kotlin** and **Jetpack Compose (Material 3 Adap
 - **Typography:** iOS-style Large Titles (`headlineLarge`) for headers.
 - **Shapes:** 24dp rounded squircle corners for cards. Minimum 48dp touch targets for interactive icons.
 - **Overlays:** Translucent frosted glass effect using `Modifier.background(...copy(alpha=0.7f)).blur(16.dp)`.
+
+<!-- release update -->

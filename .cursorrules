@@ -7,3 +7,5 @@ Instructions for ChatGPT, Custom GPTs, Cursor, Windsurf, and other LLMs.
 2. **Memory Safety:** Force explicit `bitmap.recycle()` on all image processing loops to prevent `OutOfMemoryError`.
 3. **Privacy First:** 100% local on-device operation. No external network requests for core document features.
 4. **App Name:** Always preserve the brand name **ProDocScan**.
+
+# release update

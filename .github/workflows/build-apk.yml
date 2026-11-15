@@ -50,3 +50,5 @@ jobs:
           files: release_apk/ProDocScan-Latest.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# release update

@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ProWoFlow DocScan"
 include(":app")
+
+// release update

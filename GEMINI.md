@@ -15,3 +15,5 @@ Context manual for Google Gemini, Gemini Code Assist, and Google Cloud Vertex AI
 - Respect the on-device ML Kit architecture. Do not attempt to modify Google's native scanner UI.
 - Use Compose state hoisting. Ensure `DocumentViewModel` handles state mutation rather than composable functions.
 - Ensure all PDF generation and text selection overlays maintain exact math alignment when zoom `scale` changes.
+
+<!-- release update -->

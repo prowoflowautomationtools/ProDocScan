@@ -18,3 +18,5 @@ ProDocScan is explicitly configured for AI-assisted development. Before submitti
 
 ## 🐛 Reporting Bugs & Feature Ideas
 Please use our custom [GitHub Issue Templates](.github/ISSUE_TEMPLATE/) to report bugs or submit plain-English AI feature prompts!
+
+<!-- release update -->

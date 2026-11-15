@@ -99,3 +99,5 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 ---
 
 *Maintained with ❤️ by ProWoFlow Automation Tools.*
+
+<!-- release update -->

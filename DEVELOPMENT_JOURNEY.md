@@ -141,3 +141,5 @@ This document chronicles the chronological development of **ProDocScan**, from i
 
 > 💬 **Prompt 26 (Apache 2.0 License Switch):**
 > *"Switch the project license to Apache 2.0."*
+
+<!-- release update -->
