@@ -1,5 +1,11 @@
 # ProDocScan 📄⚡
 
+<div align="center">
+
+[![Download Latest APK](https://img.shields.io/badge/📥_DOWNLOAD_LATEST_APK-Click_Here_to_Install-brightgreen?style=for-the-badge&logo=android)](https://github.com/prowoflowautomationtools/ProDocScan/releases/latest/download/ProDocScan-Latest.apk)
+
+</div>
+
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org)
 [![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-blueviolet.svg)](https://developer.android.com/jetpack/compose)

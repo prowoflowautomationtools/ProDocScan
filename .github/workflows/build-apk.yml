@@ -1,0 +1,52 @@
+name: Build & Publish ProDocScan APK
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build APK & Update Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'zulu'
+          cache: 'gradle'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Prepare Release Artifact
+        run: |
+          mkdir -p release_apk
+          cp app/build/outputs/apk/debug/app-debug.apk release_apk/ProDocScan-Latest.apk
+
+      - name: Update GitHub Latest Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          name: "ProDocScan Latest Build"
+          body: |
+            ## 📄 ProDocScan - Latest APK
+            This release is automatically updated every time new code is committed to the repository.
+
+            ### 📲 How to Install on your Phone:
+            1. Tap **ProDocScan-Latest.apk** below under Assets to download.
+            2. Open the downloaded file on your Android device.
+            3. Tap **Install** (Allow "Install from Unknown Sources" if prompted).
+          files: release_apk/ProDocScan-Latest.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
