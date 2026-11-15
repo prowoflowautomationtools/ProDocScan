@@ -20,13 +20,21 @@
 
 <div align="center">
 
-| Gallery & Large Titles | Searchable PDF & Highlighting | Text Extraction (OCR) |
+| Main Gallery (Scans) | Dual-Action FAB (Scan/Import) | Camera Viewfinder (Auto-Capture) |
 | :---: | :---: | :---: |
-| <img src=".github/assets/screenshots/screenshot_01.jpg" width="240" alt="Main Gallery" /> | <img src=".github/assets/screenshots/screenshot_02.jpg" width="240" alt="Search & Highlight" /> | <img src=".github/assets/screenshots/screenshot_03.jpg" width="240" alt="OCR Text Extraction" /> |
+| <img src=".github/assets/screenshots/screenshot_07.jpg" width="240" alt="Main Gallery" /> | <img src=".github/assets/screenshots/screenshot_15.jpg" width="240" alt="Dual Action FAB" /> | <img src=".github/assets/screenshots/screenshot_01.jpg" width="240" alt="Camera Viewfinder" /> |
 
-| Native Text Selection | Settings & Quick-Save | Image Tuning (Tune) |
+| OCR Text Extraction | Native Text Copying | Document Detail Preview |
 | :---: | :---: | :---: |
-| <img src=".github/assets/screenshots/screenshot_04.jpg" width="240" alt="Native Text Selection" /> | <img src=".github/assets/screenshots/screenshot_05.jpg" width="240" alt="Settings Screen" /> | <img src=".github/assets/screenshots/screenshot_06.jpg" width="240" alt="Image Adjustment" /> |
+| <img src=".github/assets/screenshots/screenshot_02.jpg" width="240" alt="OCR Text Extraction" /> | <img src=".github/assets/screenshots/screenshot_04.jpg" width="240" alt="Native Text Copy" /> | <img src=".github/assets/screenshots/screenshot_05.jpg" width="240" alt="Document Detail" /> |
+
+| Document Actions Menu | Settings & Preferences | AI Stain & Mark Eraser |
+| :---: | :---: | :---: |
+| <img src=".github/assets/screenshots/screenshot_06.jpg" width="240" alt="Document Actions Menu" /> | <img src=".github/assets/screenshots/screenshot_08.jpg" width="240" alt="Settings Screen" /> | <img src=".github/assets/screenshots/screenshot_10.jpg" width="240" alt="AI Stain Eraser" /> |
+
+| Color Filters & Enhancement | Crop & Rotate Adjustment | Scanner Post-Capture Review |
+| :---: | :---: | :---: |
+| <img src=".github/assets/screenshots/screenshot_12.jpg" width="240" alt="Color Filters" /> | <img src=".github/assets/screenshots/screenshot_11.jpg" width="240" alt="Crop & Rotate" /> | <img src=".github/assets/screenshots/screenshot_09.jpg" width="240" alt="Post-Capture Review" /> |
 
 </div>
 
