@@ -1,0 +1,9 @@
+# ProDocScan — Universal AI Agent Guidelines
+
+Instructions for ChatGPT, Custom GPTs, Cursor, Windsurf, and other LLMs.
+
+## 🎯 Project Mandates
+1. **Build Verification:** Always run `./gradlew assembleDebug` to verify changes before presenting code.
+2. **Memory Safety:** Force explicit `bitmap.recycle()` on all image processing loops to prevent `OutOfMemoryError`.
+3. **Privacy First:** 100% local on-device operation. No external network requests for core document features.
+4. **App Name:** Always preserve the brand name **ProDocScan**.

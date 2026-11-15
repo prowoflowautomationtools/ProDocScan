@@ -48,6 +48,26 @@ Interested in how this application was built from scratch? Check out our complet
 
 ---
 
+## 🤖 Non-Technical Vibe Coding Guide
+
+ProDocScan is optimized for **AI-Assisted Vibe Coding**. If you are a non-technical contributor (CA, CS, CMA, or business user) using Claude, Gemini, or ChatGPT, follow these steps to build new features or fix bugs:
+
+1. **Using Claude (Recommended #1):**
+   - Drag the whole `ProDocScan` folder into **Claude Desktop** or **Claude Code**.
+   - Claude will automatically read `CLAUDE.md` and understand the entire architecture!
+   - Describe what you want in plain English: *"Add a toggle to sort documents by file size."*
+
+2. **Using Google Gemini (#2):**
+   - Open **Gemini** or **Gemini Code Assist** in Android Studio.
+   - Point Gemini to `GEMINI.md`.
+   - Paste your feature idea.
+
+3. **Using ChatGPT / Cursor (#3):**
+   - Attach `AGENTS.md` or `.cursorrules` to your prompt.
+   - Ask ChatGPT to implement the changes and give you the updated code!
+
+---
+
 ## 📄 License
 
 This project is open-source software licensed under the [MIT License](LICENSE).
