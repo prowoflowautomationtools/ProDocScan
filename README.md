@@ -16,11 +16,19 @@
 
 ---
 
-## 📱 App Screenshots
+## 📱 App Screenshots Showcase
 
-| Main Gallery (Scans) | Searchable PDF & Highlighting | Text Extraction (OCR) |
+<div align="center">
+
+| Gallery & Large Titles | Searchable PDF & Highlighting | Text Extraction (OCR) |
 | :---: | :---: | :---: |
-| *Modern Apple HCI design with 24dp rounded squircle cards, Large Titles, and thumb-accessible FAB.* | *In-App search with live yellow highlights & spatial auto-panning arrows.* | *100% offline Devanagari & English text extraction sheet.* |
+| <img src=".github/assets/screenshots/screenshot_01.jpg" width="240" alt="Main Gallery" /> | <img src=".github/assets/screenshots/screenshot_02.jpg" width="240" alt="Search & Highlight" /> | <img src=".github/assets/screenshots/screenshot_03.jpg" width="240" alt="OCR Text Extraction" /> |
+
+| Native Text Selection | Settings & Quick-Save | Image Tuning (Tune) |
+| :---: | :---: | :---: |
+| <img src=".github/assets/screenshots/screenshot_04.jpg" width="240" alt="Native Text Selection" /> | <img src=".github/assets/screenshots/screenshot_05.jpg" width="240" alt="Settings Screen" /> | <img src=".github/assets/screenshots/screenshot_06.jpg" width="240" alt="Image Adjustment" /> |
+
+</div>
 
 ---
 
