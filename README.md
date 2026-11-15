@@ -36,9 +36,9 @@
 
 ## 📱 Installation & Usage
 
-1. Download the latest `ProDocScan-release.apk` file from the repository or your community drive link.
+1. Download the latest `ProDocScan-release.apk` file from the repository.
 2. Open the file on your Android device (ensure "Allow installation from unknown sources" is enabled in settings if prompted).
-3. Tap **Scan Document** or **Upload File** to begin scanning and processing!
+3. Tap **Scan Document** or **Import File** to begin scanning and processing!
 
 ---
 
