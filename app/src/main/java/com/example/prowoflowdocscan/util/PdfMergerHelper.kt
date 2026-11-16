@@ -1,7 +1,6 @@
 package com.example.prowoflowdocscan.util
 
 import android.content.Context
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Paint
 import android.graphics.pdf.PdfDocument
@@ -12,7 +11,7 @@ import java.io.FileOutputStream
 
 object PdfMergerHelper {
 
-    suspend fun mergeImagesToPdf(context: Context, imageFiles: List<File>, outputFile: File): Boolean = withContext(Dispatchers.IO) {
+    suspend fun mergeImagesToPdf(imageFiles: List<File>, outputFile: File): Boolean = withContext(Dispatchers.IO) {
         if (imageFiles.isEmpty()) return@withContext false
 
         val pdfDocument = PdfDocument()

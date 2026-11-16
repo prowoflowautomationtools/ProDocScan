@@ -266,7 +266,7 @@ fun DocumentDetailScreen(
                                     showMoreMenu = false
                                     isExtracting = true
                                     coroutineScope.launch {
-                                        val text = TextRecognitionHelper.extractText(context, File(detail.path))
+                                        val text = TextRecognitionHelper.extractText(File(detail.path))
                                         extractedText = text
                                         isExtracting = false
                                     }

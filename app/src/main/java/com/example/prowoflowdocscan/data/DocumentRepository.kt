@@ -8,15 +8,11 @@ import java.io.FileOutputStream
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
-import java.util.UUID
 import com.google.mlkit.vision.documentscanner.GmsDocumentScanningResult
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.Canvas
-import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.pdf.PdfDocument
-import java.io.FileInputStream
 import com.example.prowoflowdocscan.util.OcrHighlight
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory

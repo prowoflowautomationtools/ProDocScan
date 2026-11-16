@@ -1,6 +1,5 @@
 package com.example.prowoflowdocscan.util
 
-import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.pdf.PdfRenderer
@@ -13,7 +12,7 @@ import java.io.File
 
 object TextRecognitionHelper {
 
-    suspend fun extractText(context: Context, file: File): String {
+    suspend fun extractText(file: File): String {
         return try {
             val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
 

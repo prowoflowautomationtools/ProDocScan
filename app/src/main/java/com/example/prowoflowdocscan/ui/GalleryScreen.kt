@@ -3,7 +3,6 @@ package com.example.prowoflowdocscan.ui
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
-import android.os.Bundle
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
@@ -400,7 +399,7 @@ fun GalleryScreen(
                                         destFile = File(directory, "${mergeName}_$count.pdf")
                                         count++
                                     }
-                                    val success = com.example.prowoflowdocscan.util.PdfMergerHelper.mergeImagesToPdf(context, selectedFiles.toList(), destFile)
+                                    val success = com.example.prowoflowdocscan.util.PdfMergerHelper.mergeImagesToPdf(selectedFiles.toList(), destFile)
                                     if (success) {
                                         android.widget.Toast.makeText(context, "Merged successfully", android.widget.Toast.LENGTH_SHORT).show()
                                         selectedFiles = emptySet()

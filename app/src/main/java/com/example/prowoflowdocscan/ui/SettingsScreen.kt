@@ -8,6 +8,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.core.content.edit
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -24,7 +25,7 @@ fun SettingsScreen(onBack: () -> Unit) {
     }
 
     val formats = listOf("PDF", "IMAGE", "BOTH")
-    var expanded by remember { mutableStateOf(false) }
+    var expanded by remember { mutableStateOf(value = false) }
 
     Scaffold(
         topBar = {
@@ -34,7 +35,7 @@ fun SettingsScreen(onBack: () -> Unit) {
                     IconButton(onClick = onBack) {
                         Icon(androidx.compose.material.icons.Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
                     }
-                }
+                },
             )
         }
     ) { innerPadding ->
@@ -55,7 +56,7 @@ fun SettingsScreen(onBack: () -> Unit) {
                     checked = quickSaveEnabled,
                     onCheckedChange = {
                         quickSaveEnabled = it
-                        sharedPrefs.edit().putBoolean("quickSaveEnabled", it).apply()
+                        sharedPrefs.edit { putBoolean("quickSaveEnabled", it) }
                     }
                 )
             }
@@ -72,7 +73,7 @@ fun SettingsScreen(onBack: () -> Unit) {
                     onValueChange = {},
                     readOnly = true,
                     trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                    modifier = Modifier.menuAnchor()
+                    modifier = Modifier.menuAnchor(ExposedDropdownMenuAnchorType.PrimaryNotEditable)
                 )
                 ExposedDropdownMenu(
                     expanded = expanded,
@@ -83,7 +84,7 @@ fun SettingsScreen(onBack: () -> Unit) {
                             text = { Text(format) },
                             onClick = {
                                 defaultSaveFormat = format
-                                sharedPrefs.edit().putString("defaultSaveFormat", format).apply()
+                                sharedPrefs.edit { putString("defaultSaveFormat", format) }
                                 expanded = false
                             }
                         )

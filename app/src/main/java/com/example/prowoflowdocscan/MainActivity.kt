@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
                                 detailPlaceholder = {
                                     Box(
                                         modifier = Modifier.fillMaxSize(),
-                                        contentAlignment = Alignment.Center
+                                        contentAlignment = Alignment.Center,
                                     ) {
                                         Text("Select a document to preview")
                                     }
@@ -73,13 +73,12 @@ class MainActivity : ComponentActivity() {
                         ) {
                             GalleryScreen(
                                 viewModel = viewModel,
-                                onDocumentClick = { doc ->
-                                    backStack.add(DocumentDetail(doc.id, doc.path))
-                                },
-                                onSettingsClick = {
-                                    backStack.add(SettingsRoute)
+                                onDocumentClick = { (id, _, path) ->
+                                    backStack.add(DocumentDetail(id, path))
                                 }
-                            )
+                            ) {
+                                backStack.add(SettingsRoute)
+                            }
                         }
 
                         entry<DocumentDetail>(

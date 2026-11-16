@@ -25,7 +25,7 @@ A mobile app inspired by Adobe Scan. This is the user's first mobile app. It nee
 * **Storage:** Native Android File System / MediaStore (for persisting JPEG/PDF files; no dedicated database layer is required for the MVP).
 
 ## Implementation Steps
-**Total Duration:** 17h 10m 28s
+**Total Duration:** 17h 20m 9s
 
 ### Task_1_BasicUI_Navigation: Set up Jetpack Navigation 3 and create the main Document Gallery UI using Compose Material Adaptive. Implement local storage operations to read and display previously scanned documents.
 - **Status:** COMPLETED
@@ -361,5 +361,21 @@ A mobile app inspired by Adobe Scan. This is the user's first mobile app. It nee
   - make sure all existing tests pass
   - build pass
   - app does not crash
+
+### Task_55_Codebase_Janitor_Pass: Run a codebase janitor pass: prune unused imports, convert var to val where applicable, fix typos in comments, and clean up Kotlin idioms across all Kotlin files to resolve Android Studio inspection warnings.
+- **Status:** COMPLETED
+- **Updates:** Successfully executed a codebase janitor pass. Stripped unused imports across the UI and util layers. Refactored SharedPreferences to use ktx extensions. Fixed deprecated modifiers in SettingsScreen. Removed unused parameters in util functions and removed dead code. Project compiles cleanly.
+- **Acceptance Criteria:**
+  - Unused imports removed
+  - Eligible vars converted to vals
+  - Kotlin idiom warnings reduced
 - **Duration:** N/A
+
+### Task_56_Run_Verify_Commit: Run and verify the application after the janitor pass. Instruct critic_agent to verify application stability (no crashes). Stage, commit, and push the cleanup changes to origin main.
+- **Status:** IN_PROGRESS
+- **Acceptance Criteria:**
+  - make sure all existing tests pass
+  - build pass
+  - app does not crash
+- **StartTime:** 2026-11-17 02:47:11 IST
 

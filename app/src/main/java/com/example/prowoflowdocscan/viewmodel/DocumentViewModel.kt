@@ -24,11 +24,8 @@ class DocumentViewModel(application: Application) : AndroidViewModel(application
     private val _searchQuery = MutableStateFlow("")
     val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
 
-    private val _sortByName = MutableStateFlow(false)
+    private val _sortByName = MutableStateFlow(value = false)
     val sortByName: StateFlow<Boolean> = _sortByName.asStateFlow()
-
-    private val _refreshTrigger = MutableStateFlow(0)
-    val refreshTrigger: StateFlow<Int> = _refreshTrigger.asStateFlow()
 
     // For DocumentDetailScreen
     private val _isSearchable = MutableStateFlow(false)
@@ -46,15 +43,11 @@ class DocumentViewModel(application: Application) : AndroidViewModel(application
     private val _detailSearchQuery = MutableStateFlow("")
     val detailSearchQuery: StateFlow<String> = _detailSearchQuery.asStateFlow()
 
-    private val _ocrDataRefreshTrigger = MutableStateFlow(0)
-    val ocrDataRefreshTrigger: StateFlow<Int> = _ocrDataRefreshTrigger.asStateFlow()
-
     init {
         loadDocuments()
     }
 
     fun triggerRefresh() {
-        _refreshTrigger.value += 1
         loadDocuments()
     }
 
@@ -86,7 +79,6 @@ class DocumentViewModel(application: Application) : AndroidViewModel(application
     }
 
     fun triggerOcrDataRefresh(documentId: String) {
-        _ocrDataRefreshTrigger.value += 1
         checkIfSearchable(documentId)
         loadOcrHighlights(documentId)
     }

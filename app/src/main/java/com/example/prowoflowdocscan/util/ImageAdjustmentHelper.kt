@@ -16,13 +16,12 @@ object ImageAdjustmentHelper {
     fun adjustBitmap(source: Bitmap, brightness: Float, contrast: Float): Bitmap {
         // Contrast scaling matrix
         val contrastMatrix = ColorMatrix().apply {
-            val scale = contrast
-            val translate = (-.5f * scale + .5f) * 255f
+            val translate = (-.5f * contrast + .5f) * 255f
             set(
                 floatArrayOf(
-                    scale, 0f, 0f, 0f, translate,
-                    0f, scale, 0f, 0f, translate,
-                    0f, 0f, scale, 0f, translate,
+                    contrast, 0f, 0f, 0f, translate,
+                    0f, contrast, 0f, 0f, translate,
+                    0f, 0f, contrast, 0f, translate,
                     0f, 0f, 0f, 1f, 0f
                 )
             )
